@@ -6,19 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example" />
-        <module name="hdfs-demo" />
-        <module name="join-demo" />
-        <module name="mapreduce-demo" />
-        <module name="zookeeper-demo" />
+        <module name="zookeeper1205" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="example" target="8" />
-      <module name="hdfs-demo" target="1.8" />
-      <module name="join-demo" target="8" />
-      <module name="mapreduce-demo" target="1.8" />
-      <module name="zookeeper-demo" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
